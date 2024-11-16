@@ -1,4 +1,4 @@
-# Needle Retriever
+# Needle
 
 [Needle](https://needle-ai.com) makes it easy to create your Retrieval-Augmented Generation (RAG) pipelines with minimal effort.
 
