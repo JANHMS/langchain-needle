@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-needle"
+version = "0.1.0"
+description = "Needle integration for LangChain"
+authors = ["Jan Heimes <jan@needle-ai.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+langchain-core = "^0.3"
+needle = "^0.4"
+
+[tool.poetry.group.dev.dependencies]
+langchain-openai = "^0.2"
+ruff = "^0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
